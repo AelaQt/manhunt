@@ -16,3 +16,5 @@ tellraw @a {"color":"gray","text":"Hunters are frozen for 15 seconds"}
 schedule function aela:manhunt/release 15s
 gamerule doDaylightCycle true
 difficulty easy
+
+scoreboard players reset @s start
