@@ -6,7 +6,9 @@ hunters have a compass that updates when held in main hand / offhand
 
 the compass will point to the nearest runner, it could be weird if runners are in different dimensions but it should point to a portal if no runners are in the same dimension
 
-once runners die the compass should no longer point towards them
+once runners die the compass should no longer point towards them unless all runners are dead
+
+if people get disconnected they should be able to relog just fine
 
 players are hunters by default
 
