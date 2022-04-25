@@ -12,8 +12,7 @@ scoreboard players set manhunt var 1
 scoreboard players reset @a role
 scoreboard players reset @a start
 tellraw @a {"color":"dark_gray","text":"Game starting"}
-tellraw @a {"color":"gray","text":"Hunters are frozen for 30 seconds"}
-execute as @a at @s run playsound block.note_block.pling ambient @s
-schedule function aela:manhunt/release 30s
+tellraw @a {"color":"gray","text":"Hunters are frozen for 15 seconds"}
+schedule function aela:manhunt/release 15s
 gamerule doDaylightCycle true
 difficulty easy
